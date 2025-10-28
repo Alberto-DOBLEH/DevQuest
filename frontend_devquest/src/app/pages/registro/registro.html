@@ -1,0 +1,40 @@
+<div>
+    <app-header></app-header>
+</div>
+<div class="main_container">
+    <h2>Registro</h2>
+    <hr>
+    <form class="registro">
+        <div class="nombre">
+            <label>Nombre:</label>
+            <input class="inputs_estilo" type="text" id="username" name="username" required>
+        </div>
+        <div class="usuario">
+            <label>Usuario:</label>
+            <input class="inputs_estilo" type="text" id="fullname" name="fullname" required>
+        </div>
+        <div class="correo">
+            <label>Correo electrónico:</label>
+            <input class="inputs_estilo" type="email" id="email" name="email" required>
+        </div>
+        <div class="contraseña">
+            <label>Contraseña:</label>
+            <input class="inputs_estilo" type="password" id="password" name="password" required>
+        </div>
+        <div class="confirmar_contraseña">
+            <label>Confirmar contraseña:</label>
+            <input class="inputs_estilo" type="password" id="check_password" name="password" required>
+        </div>
+        <div class="tipo_usuario">
+            <label>Tipo de usuario:</label>
+            <select class="inputs_estilo" id="user_type" name="user_type" required>
+                <option value="estudiante">Estudiante</option>
+                <option value="profesor">Profesor</option>
+                <option value="recien_graduado">Recien Egresado</option>
+                <option value="otro">Otro</option>
+            </select>
+        </div>
+        
+        <button class="boton_azul">Registrarse</button>
+    </form>
+</div>

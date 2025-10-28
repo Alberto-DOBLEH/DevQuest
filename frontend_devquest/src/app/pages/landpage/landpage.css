@@ -1,0 +1,18 @@
+.presentacion {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.seccion_sesion {
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.seccion_boton {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}

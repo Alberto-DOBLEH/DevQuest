@@ -1,0 +1,33 @@
+.main_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin-top: 15px;
+}
+
+hr {
+    width: 100%;
+    margin: 20px 0;
+    background-color: var(--color-gris-oscuro);
+    height: 2px;
+}
+
+.registro {
+    border-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.nombre,
+.correo,
+.usuario,
+.contraseña,
+.confirmar_contraseña,
+.tipo_usuario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

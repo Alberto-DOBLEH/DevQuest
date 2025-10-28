@@ -1,0 +1,31 @@
+.main_container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.login {
+    border-top: 6rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.seccion_usuario,
+.seccion_contra {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+hr {
+    width: 100%;
+    margin-bottom: 0.1rem;
+    background-color: solid var(--color-primario);
+    height: 2px; 
+}
+
+
