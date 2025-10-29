@@ -31,3 +31,9 @@ hr {
     flex-direction: column;
     align-items: center;
 }
+
+.guia {
+    margin-bottom: 0.1rem;
+    font-size: 0.7rem;
+    color: var(--color-gris-oscuro);
+}

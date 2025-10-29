@@ -15,12 +15,13 @@
         </div>
         <div class="correo">
             <label>Correo electrónico:</label>
-            <input class="inputs_estilo" type="email" id="email" name="email" required>
+            <input class="inputs_estilo" placeholder="user@example.com" type="email" id="email" name="email" required>
         </div>
         <div class="contraseña">
             <label>Contraseña:</label>
             <input class="inputs_estilo" type="password" id="password" name="password" required>
         </div>
+        <p class="guia">-Debe tener al menos 8 caracteres, 1 numero y una Mayuscula</p>
         <div class="confirmar_contraseña">
             <label>Confirmar contraseña:</label>
             <input class="inputs_estilo" type="password" id="check_password" name="password" required>
@@ -28,10 +29,12 @@
         <div class="tipo_usuario">
             <label>Tipo de usuario:</label>
             <select class="inputs_estilo" id="user_type" name="user_type" required>
-                <option value="estudiante">Estudiante</option>
-                <option value="profesor">Profesor</option>
-                <option value="recien_graduado">Recien Egresado</option>
-                <option value="otro">Otro</option>
+                <div class="menu_select">
+                    <option value="estudiante">Estudiante</option>
+                    <option value="profesor">Profesor</option>
+                    <option value="recien_graduado">Recien Egresado</option>
+                    <option value="otro">Otro</option>
+                </div>
             </select>
         </div>
         
