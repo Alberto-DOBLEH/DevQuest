@@ -10,4 +10,4 @@ tipo_usuario.hasMany(Usuario, { foreignKey: 'tipo_usuario', as: 'usuario' });
 Curso.belongsTo(Tipo_curso, { foreignKey: 'tipo_curso', as: 'tipo' });
 Tipo_curso.hasMany(Curso, { foreignKey: 'tipo_curso', as: 'curso'});
 
-export { Usuario, tipo_usuario };
+export { Usuario, tipo_usuario, Curso, Tipo_curso };

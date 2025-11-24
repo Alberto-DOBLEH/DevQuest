@@ -4,15 +4,15 @@
 <div class="main_container">
     <h2>Login</h2>
     <hr>
-    <form class="login">
+    <form class="login" (ngSubmit)="onSubmit()">
         <div class="seccion_usuario">
         <label>Usuario/Correo Electronico:</label>
-        <input type="text" id="username" name="username" placeholder="Usuario/Correo" class="inputs_estilo"/>
+        <input type="text" placeholder="Usuario/Correo" [(ngModel)]="identifier" [ngModelOptions]="{standalone: true}" class="inputs_estilo"/>
         </div>
         <div class="seccion_contra">
         <label>Contraseña:</label>
-        <input type="password" id="password" name="password" type="password" placeholder="Contraseña" class="inputs_estilo"/>
+        <input type="password" placeholder="Contraseña" [(ngModel)]="password" [ngModelOptions]="{standalone: true}" class="inputs_estilo"/>
         </div>
-        <button class="boton_azul">Iniciar Sesion</button>
+        <button class="boton_azul" type="submit">Iniciar Sesion</button>
     </form>
 </div>

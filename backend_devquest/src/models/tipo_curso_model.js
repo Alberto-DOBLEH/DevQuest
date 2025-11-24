@@ -1,7 +1,7 @@
 import { DataTypes } from "sequelize";
 import { sequelize } from "../config/db.js";
 
-export const Tipo_curso = sequelize.define('tipo_cursos', {
+export const Tipo_curso = sequelize.define('tipos_cursos', {
     id_tipos_cursos: {
         type: DataTypes.INTEGER,
         primaryKey: true

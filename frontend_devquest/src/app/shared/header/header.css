@@ -1,37 +1,30 @@
 .header {
     background-color: var(--color-primario);
     display: flex;
+    justify-content: space-between;
     align-items: center;
     flex-direction: row;
     height: 60px;
-    gap: 10px;
+
 }
 
 .Logo {
-    margin-left: 5px;
     height: 40px;
-    margin-right: auto;
-    display: flex;
     position: absolute;
     margin-top: -1.4rem;
+    margin-left: 1rem;
 }
 
 .titulo {
-    margin-left: auto;
-    margin-right: -3.8rem;
-    flex-direction: row;
-    display: flex;
     font-weight: bold;
     color: white;
-    font-size: 25px;
+    font-size: 30px;
     margin-top: 1rem;
 }
 
 .lista {
     color: var(--color-secundario);
     font-size: 30px;
-    margin-left: auto;
-    margin-right: 0.4rem;
-    cursor: pointer;
+    margin-right: 1rem;
 }
 

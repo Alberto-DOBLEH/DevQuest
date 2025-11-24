@@ -7,11 +7,14 @@ export const Curso = sequelize.define('curso', {
         type: DataTypes.INTEGER,
         primaryKey: true
     },
+    nombre: {
+        type: DataTypes.STRING
+    },
     tipo_curso: {
         type: DataTypes.INTEGER,
         references: {
             model: Tipo_curso,
-            key: 'id_tips_cursos'
+            key: 'id_tipos_cursos'
         }
     },
     medallas: {

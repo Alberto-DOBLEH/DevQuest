@@ -1,11 +1,11 @@
 import { Curso, Tipo_curso } from '../models/index.js';
 
-// Obtener todos los usuarios con su tipo de usuario
-export const getCorsues = async (req, res) => {
+// Obtener todos los cursos(solo la informacion general)
+export const getCurses = async (req, res) => {
     try {
         const users = await Curso.findAll({
             include: { 
-                model: tipo_curso, 
+                model: Tipo_curso, 
                 as: 'tipo', 
                 attributes: ['nombre'] 
             }
@@ -16,3 +16,4 @@ export const getCorsues = async (req, res) => {
         res.status(500).json({ message: error.message });
     }
 };
+
